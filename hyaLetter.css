@@ -1,15 +1,26 @@
+@font-face {
+	font-family: Exca;
+	src: url(Excalifont-Regular.woff2);
+}
+@font-face {
+	font-family: auto2;
+	src: url(Santa\ Catalina1.otf);
+}
+
 body {
 	display: flex;
 	height: 100vh;
 	align-items: center;
 	justify-content: center;
-	background-color: #ffffff;
+	background-color: #dff2eb;
+	font-family: auto2;
+	font-weight: 100;
 }
 
 .envelope {
 	position: relative;
 	cursor: pointer;
-	box-shadow: 0px 15px 50px #3086f7;
+	box-shadow: 0px 15px 50px #4a628a;
 	animation-name: enve;
 	animation-duration: 3s;
 	animation-fill-mode: forwards;
@@ -36,7 +47,7 @@ body {
 	position: relative;
 	width: 250px;
 	height: 200px;
-	background-color: #3086f7;
+	background-color: #4a628a;
 }
 
 .front {
@@ -94,7 +105,7 @@ body {
 	position: absolute;
 	background-color: wheat;
 	width: 230px;
-	height: 180px;
+	height: 190px;
 	top: 10px;
 	left: 10px;
 	transition: 0.2s;
@@ -108,7 +119,6 @@ body {
 .text1 {
 	position: absolute;
 	color: green;
-	font-family: sans-serif;
 	top: -50%;
 }
 
@@ -119,7 +129,6 @@ body {
 	align-items: center;
 	display: flex;
 	margin-top: 29px;
-	font-weight: bold;
 	position: relative;
 	top: -20px;
 }
@@ -129,9 +138,13 @@ a {
 	justify-content: center;
 	align-items: center;
 	display: flex;
-	font-weight: bold;
+	font-family: auto2;
 	position: relative;
-	top: -20px;
+	top: -35px;
+	font-weight: bold;
+	text-decoration: none;
+	color: red;
+	z-index: 1;
 }
 
 /* xs */
@@ -185,7 +198,7 @@ a {
 	}
 	.envelope {
 		max-width: 1280px;
-		scale: 1.7;
+		scale: 1.5;
 	}
 }
 
@@ -196,7 +209,7 @@ a {
 	}
 	.envelope {
 		max-width: 1536px;
-		scale: 2;
+		scale: 1.5;
 	}
 }
 
