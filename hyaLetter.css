@@ -94,7 +94,7 @@ body {
 	width: 0;
 	top: 0;
 	transform-origin: top;
-	transition: 0.4s;
+	transition: 0.6s;
 }
 
 .envelope:hover .top {
@@ -108,7 +108,7 @@ body {
 	height: 190px;
 	top: 10px;
 	left: 10px;
-	transition: 0.2s;
+	transition: 0.1s;
 }
 
 .envelope:hover .letter {

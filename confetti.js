@@ -116,4 +116,4 @@ setTimeout(() => {
 			],
 		},
 	});
-}, 220); // 0.5 second delay
+}, 50); // 0.5 second delay
