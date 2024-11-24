@@ -14,7 +14,7 @@ setTimeout(() => {
 					direction: "top",
 					enable: true,
 					gravity: {
-						enable: true,
+						enable: false,
 					},
 					outModes: {
 						top: "none",
@@ -26,7 +26,7 @@ setTimeout(() => {
 					},
 				},
 				number: {
-					value: 100,
+					value: 40,
 				},
 				opacity: {
 					value: 1,
@@ -46,7 +46,7 @@ setTimeout(() => {
 					direction: "random",
 					animation: {
 						enable: true,
-						speed: 30,
+						speed: 10,
 					},
 				},
 				tilt: {
@@ -62,7 +62,7 @@ setTimeout(() => {
 					},
 				},
 				size: {
-					value: 7,
+					value: 10,
 					animation: {
 						enable: true,
 						startValue: "min",

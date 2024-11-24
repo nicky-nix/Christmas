@@ -7,25 +7,29 @@
 	src: url(Santa\ Catalina1.otf);
 }
 body {
-	display: flex;
+	margin: 1.5rem;
+	/* border: 3px dashed rgb(183, 0, 255);
+	outline: 6px solid rgb(128, 112, 216);
+	outline-offset: 5px; */
 	height: auto;
-	margin-bottom: 15rem;
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	display: flex;
+	font-family: serif;
+	font-style: oblique;
 	background-color: #bcfffc;
 	overflow-y: scroll;
-	text-align: justify;
 	line-height: 2rem;
 	/*font-size: clamp(1.125rem, 2vw, 1.25rem);
 */
 	font-size: 20px;
 }
+html {
+}
 div {
-	margin-bottom: 40rem;
+	padding-top: 20rem;
+	padding-bottom: 20rem;
 	animation: fade 10s ease-in-out both;
 	animation-timeline: view();
 	animation-range: entry 50% cover 50%;
-	scroll-snap-type: y mandatory;
 }
 
 @keyframes fade {
@@ -38,7 +42,6 @@ div {
 }
 
 .dear {
-	margin-top: 20rem;
 	animation: reveal 1s ease-in-out;
 	text-align: center;
 }
@@ -142,7 +145,7 @@ div {
 		max-width: 1536px;
 	}
 	.dear {
-		margin-top: 27rem;
+		margin-top: 9rem;
 	}
 	div {
 		font-size: 2.9rem;
@@ -160,4 +163,8 @@ div {
 	align-items: center;
 	justify-content: center;
 	text-align: justify;
+}
+* {
+	margin: 0;
+	padding: 0;
 }
